@@ -41,7 +41,7 @@ header {
     color: #FAFAFA;
 }
 
-.main-visual {
+#mv {
     width: 100%;
     height: 650px;
     background-image: url(img/mv.png);
@@ -293,7 +293,7 @@ footer {
     color: #FAFAFA;
 }
 
-@media screen and (max-width:768px) {
+@media(max-width: 768px) {
     .contents {
         width: 90%;
         margin: 0 auto;
@@ -331,7 +331,7 @@ footer {
     .list-bar:first-child {
         margin-top: 10px;
     }
-    .main-visual {
+    #mv {
         background-image: url(img/code.png);
     }
     .Lorem {
