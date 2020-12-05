@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #EC715F;
+}
+
+.header-contents {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 70px;
+    float: left;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    line-height: 70px;
+}
+
+.nav-items {
+    font-size: 16px;
+    padding: 0px 30px;
+    width: 120px;
+}
+
+.nav-items a {
+    color: #FAFAFA;
+}
+
+.main-visual {
+    width: 100%;
+    height: 650px;
+    background-image: url(img/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-visual-text {
+    padding-top: 200px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.Lorem {
+    font-size: 64px;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.simply {
+    font-size: 20px;
+}
+
+#Portfolio {
+    width: 100%;
+    background-color: #ECEFF1;
+}
+
+.Portfolio-container {
+    width: 920px;
+    margin: 0px auto;
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.heading {
+    display: inline-block;
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.heading-text::after,
+.feature-text::after,
+.profile-text::after,
+.contact-text::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.sentence {
+    padding: 30px 0px;
+}
+
+.portfolio-image {
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Portfolio-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.portfolio-image:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio-image:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.portfolio-image:nth-child(1) {
+    background-image: url(img/sketch.jpg);
+    background-size: cover;
+}
+
+.portfolio-image:nth-child(2) {
+    background-image: url(img/websuku.png);
+    background-size: cover;
+}
+
+.portfolio-image:nth-child(3) {
+    background-image: url(img/write.jpg);
+    background-size: cover;
+}
+
+.portfolio-image:nth-child(4) {
+    background-image: url(img/webcamp.png);
+    background-size: cover;
+}
+
+.portfolio-image:nth-child(5) {
+    background-image: url(img/talk.jpg);
+    background-size: cover;
+}
+
+.portfolio-image:nth-child(6) {
+    background-image: url(img/webcamp-mother.png);
+    background-size: cover;
+}
+
+.feature-container {
+    width: 980px;
+    padding: 90px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fab,
+.far {
+    font-size: 60px;
+}
+
+.explains {
+    display: flex;
+    justify-content: center;
+}
+
+.explain {
+    width: 320px;
+    margin-right: 10px;
+}
+
+.strength {
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 0px;
+}
+
+.explain-text {
+    word-wrap: break-word;
+}
+
+#Profile {
+    background-color: #ECEFF1;
+}
+
+.profile-container {
+    width: 1024px;
+    padding: 90px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-bottom {
+    display: flex;
+}
+
+.man-image {
+    width: 512px;
+}
+
+.dandy {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.MyName {
+    width: 512px;
+    text-align: left;
+}
+
+.profile-Heading {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.padding20 {
+    padding-top: 20px;
+}
+
+.profile-text2 {
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.contact-group {
+    width: 800px;
+    padding: 0px 0 90px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.left-contact-content {
+    width: 130px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.link-text {
+    text-decoration: underline;
+    color: #212121;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.right-contact-content {
+    width: 180px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.right-contact-content .fa {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+    margin-right: 0;
+}
+
+.contact-container {
+    text-align: center;
+    margin: 90px 0px auto;
+}
+
+.left-content,
+.right-content {
+    width: 400px;
+}
+
+.fa-5x {
+    font-size: 60px;
+}
+
+footer {
+    background-color: #EC715F;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+@media screen and (max-width:768px) {
+    .contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+    header {
+        height: 50px;
+    }
+    .header-contents {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .logo {
+        margin-right: auto;
+        height: 50px;
+    }
+    .menu-box {
+        float: right;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #FAFAFA;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .list-bar {
+        display: block;
+        width: 25px;
+        height: 2px;
+        margin: 5px auto;
+        background-color: #FAFAFA;
+    }
+    .list-bar:first-child {
+        margin-top: 10px;
+    }
+    .main-visual {
+        background-image: url(img/code.png);
+    }
+    .Lorem {
+        font-size: 40px;
+    }
+    .simply {
+        font-size: 18px;
+    }
+    .portfolio-image:nth-child(odd) {
+        display: none;
+    }
+    .portfolio-image:nth-child(even) {
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-position: center;
+    }
+    .portfolio-image:last-child {
+        margin-bottom: 0px;
+    }
+    .explains {
+        display: block;
+    }
+    .explain {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .explain:last-child {
+        margin-bottom: 0px;
+    }
+    .profile-bottom {
+        display: block;
+    }
+    .man-image {
+        width: 512px;
+        margin: 0 auto;
+    }
+    .MyName {
+        width: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .profile-text2:last-child {
+        padding-bottom: 0px;
+    }
+    .contact-container {
+        margin-top: 90px;
+    }
+    .contact-group {
+        display: block;
+        width: auto;
+    }
+    .left-contact-content,
+    .right-contact-content {
+        text-align: center;
+    }
+    .left-content,
+    .right-content {
+        width: 100%;
+    }
+    .right-content {
+        margin-top: 20px;
+    }
+}
